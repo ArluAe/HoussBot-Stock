@@ -32,7 +32,7 @@ def evaluate_model(model, test_loader):
     print(f'Accuracy: {accuracy:.4f}')
 
 def main():
-    file_path = 'data/apple_stock.csv'
+    file_path = 'tech/data/apple_stock.csv'
     X, y, scaler = prepare_data(file_path)
     
     # Split data
