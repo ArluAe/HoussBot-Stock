@@ -5,8 +5,8 @@ import torch.optim as optim
 import torch.nn as nn
 from sklearn.metrics import accuracy_score
 from torch.utils.data import DataLoader, TensorDataset
-from src.model import StockPredictor
-from src.preprocess import prepare_data
+from model import StockPredictor
+from preprocess import prepare_data
 
 def train_model(model, train_loader, criterion, optimizer, num_epochs):
     model.train()
