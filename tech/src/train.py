@@ -17,7 +17,7 @@ def train_model(model, train_loader, criterion, optimizer, num_epochs):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-        print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+        #print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 def evaluate_model(model, test_loader):
     model.eval()
