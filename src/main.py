@@ -1,4 +1,4 @@
-# main.py
+# src/main.py
 
 from train import main as train_and_evaluate
 
