@@ -72,6 +72,6 @@ if __name__ == '__main__':
     main("tech/data/uber_stock.csv", "uber.pth")
     main("tech/data/tesla_stock.csv", "tesla.pth")
     main("tech/data/nvidia_stock.csv", "nvidia.pth")
-    main("tech/data/miscrosoft_stock.csv", "microsoft.pth")
+    main("tech/data/microsoft_stock.csv", "microsoft.pth")
     main("tech/data/amazon_stock.csv", "amazon.pth")
 

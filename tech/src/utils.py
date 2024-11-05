@@ -35,4 +35,4 @@ def predict_next_day(model, recent_data):
     probability = torch.sigmoid(output).item()
     
     # Interpret probability as "Up" or "Down"
-    return "Up" if probability > 0.5 else "Down"
+    return "Up" + str(probability) if probability > 0.5 else "Down" + str(probability)
